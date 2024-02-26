@@ -14,7 +14,7 @@
     <form action="text.php" method="GET" >
         <label for="nome">parola da censurare:</label><br>
         <input type="text" name="nome" id="nome" $parola><br>
-        <label for="testo"> inserisci la parola in un testo</label><br>
+        <label for="testo"> paragrafo </label><br>
         <textarea name="testo" id="testo" cols="30" rows="10"></textarea>
         <button type="submit">invia</button>
     </form>
